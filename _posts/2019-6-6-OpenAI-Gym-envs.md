@@ -7,6 +7,8 @@ First we look at the structure of OpenAI Gym Envs code (shown below). [github co
 
 ![_config.yml]({{ site.baseurl }}/images/openaigym-envs.png)
 
+The goal based environment is inherited from Env class.
+
 **Goal based environment**
 
 It functions just as any regular OpenAI Gym environment but it imposes a required structure on the observation_space. More concretely, the observation space is required to contain at least three elements, namely `observation`, `desired_goal`, and
