@@ -29,5 +29,6 @@ RobotEnv is inherited from Goal based environment.
 FetchEnv is inherited from RobotEnv.
 
 **FetchEnv**
+
 `n_actions` is 4.
 The ```compute_reward()``` function computes distance between goal and the achieved goal. If the reward type is sparse, it returns -1 if not achieved and 0 is achieved.
