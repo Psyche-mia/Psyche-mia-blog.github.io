@@ -20,8 +20,8 @@ RobotEnv is inherited from Goal based environment.
 
 `Action space`: spaces.Box ranges in [-1, 1] with shape of `n_actions`
 
-`Desired goal`: spaces.Box ranges in (-np.inf, np.inf) with shape of desired_goal [[Error in source code?]](https://github.com/openai/gym/blob/master/gym/envs/robotics/robot_env.py)
+`Desired goal`: spaces.Box ranges in (-∞, ∞) with shape of `desired_goal` [[Error in source code?]](https://github.com/openai/gym/blob/master/gym/envs/robotics/robot_env.py)
 
-`Achieved goal`: spaces.Box ranges in (-np.inf, np.inf) with shape of achieved_goal
+`Achieved goal`: spaces.Box ranges in (-∞, ∞) with shape of `achieved_goal`
 
-`Observation`: spaces.Box ranges in (-np.inf, np.inf) with shape of observation
+`Observation`: spaces.Box ranges in (-∞, ∞) with shape of `observation`
