@@ -25,3 +25,9 @@ RobotEnv is inherited from Goal based environment.
 `Achieved goal`: spaces.Box ranges in (-∞, ∞) with shape of `achieved_goal`
 
 `Observation`: spaces.Box ranges in (-∞, ∞) with shape of `observation`
+
+FetchEnv is inherited from RobotEnv.
+
+**FetchEnv**
+`n_actions` is 4.
+The ```compute_reward()``` function computes distance between goal and the achieved goal. If the reward type is sparse, it returns -1 if not achieved and 0 is achieved.
