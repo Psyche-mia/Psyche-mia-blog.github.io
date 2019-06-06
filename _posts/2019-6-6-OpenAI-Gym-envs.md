@@ -18,4 +18,4 @@ RobotEnv is inherited from Goal based environment.
 
 **RobotEnv**
 
-``Action space``
+`Action space`: spaces.Box ranges in [[-1., 1.]] with shape of `n_actions`
