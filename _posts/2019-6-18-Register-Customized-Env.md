@@ -3,7 +3,7 @@ layout: post
 title: Register a customized Robotic Environment in Open AI Gym
 ---
 
-1. Locate Gym package path 
+- **Locate Gym package path 
 
 ```>>> import gym```
 
